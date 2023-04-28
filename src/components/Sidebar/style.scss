@@ -1,0 +1,27 @@
+.sidebar-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #5840c8;
+  border-radius: 1rem;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 2rem;
+  :not(:last-child) {
+    border-bottom: 1px solid #7977d6;
+    padding: 0.5rem 0;
+  }
+}
+a:hover {
+  color: #fff !important;
+}
+.navlink {
+  text-decoration: unset;
+  padding: 0.5rem 0;
+  color: #8c84db;
+}
+.active {
+  color: #fff;
+  text-decoration: unset;
+  padding: 0.5rem 0;
+}

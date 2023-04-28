@@ -1,0 +1,13 @@
+.coming-soon {
+  width: 100%;
+  min-height: calc(100vh - 120px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .span {
+    color: #eee;
+    font-weight: bold;
+    font-size: 80px;
+  }
+}

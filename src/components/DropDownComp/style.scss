@@ -1,0 +1,45 @@
+.dropdown-container {
+  background-color: #fff;
+  padding: 2rem;
+  min-height: 300px;
+  min-width: 250px;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 30px 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  z-index: 1;
+  right: 3%;
+  .profile-small {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-position: center;
+  }
+  .divider {
+    width: 150px;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 0.5rem 0;
+  }
+  .light-para {
+    color: #9a9a9a;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .bold-para {
+    color: #545454;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  .signout {
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #d55151;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.325rem 0.75rem;
+    margin-top: 1rem;
+  }
+}
